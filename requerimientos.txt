@@ -1,0 +1,2 @@
+1. entorno virtual
+2. Estructura basica de django
