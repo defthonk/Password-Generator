@@ -9,7 +9,10 @@ def explicacion(request):
     return render(request, 'generador/explicacion.html')   
 
 def home(request):
-    return render(request, 'generador/home.html')
+    return render(request, 'generador/home.html')   
+
+def abt(request):
+    return render(request, 'generador/abt.html')   
 
 #Este def es para que me cree numeros caracteres aleatorios, dentro del rango de length,que puede variar dependiendo su valor escogido
 def password(request):
@@ -27,6 +30,9 @@ def password(request):
 
     if request.GET.get('numbers'):
         charecters.extend(list('1234567890'))
+    
+    else: #
+        print("sdfghjk") #
 
     for x in range(length):
         generated_password += random.choice(charecters)

@@ -1,2 +1,6 @@
 1. entorno virtual
+(entra directamente al archivo en el cmd, cd venv, cd scripts, activate, cd.., cd.., python manage.py runserver)
 2. Estructura basica de django
+
+usuario:admi
+password:admin123
